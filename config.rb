@@ -27,7 +27,8 @@ ready do
   require './lib/multilang.rb'
 end
 
-activate :sprockets
+# Updated by Arunabh
+# activate :sprockets
 
 activate :autoprefixer do |config|
   config.browsers = ['last 2 version', 'Firefox ESR']
